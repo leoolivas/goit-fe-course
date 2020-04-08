@@ -1,0 +1,135 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 32px;
+}
+
+.container {
+  width: 908px;
+  margin: 0 auto;
+}
+.main-header-container {
+  margin-bottom: 100px;
+}
+.title {
+  font-family: "Ubuntu", sans-serif;
+  color: #b4ad9e;
+  line-height: 17px;
+}
+.title {
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+.heading {
+  margin-bottom: 33px;
+  font-size: 30px;
+  line-height: 36px;
+}
+.description {
+  font-size: 14px;
+}
+button {
+  font-size: 20px;
+  line-height: 24px;
+
+  border: 1px solid #626262;
+  margin: 0;
+  padding: 20px 34px;
+  min-width: 164px;
+  min-height: 60px;
+  background-color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+button:hover,
+button:focus {
+  color: red;
+}
+
+.main-nav {
+  padding: 77px 0 73px 0;
+  text-align: center;
+}
+
+.main-menu {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+.main-menu li:not(:last-child) {
+  margin-right: 107px;
+}
+
+.main-menu-item {
+  list-style: none;
+}
+.main-menu-item a {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+}
+
+.main-menu-item a:hover,
+.main-menu-item a:focus {
+  color: red;
+}
+
+.main-content-list {
+  list-style: none;
+  margin: 0 0 52px 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.main-content-list-item {
+  display: inline-block;
+  width: 421px;
+  margin-right: 61px;
+  margin-bottom: 128px;
+  padding: 0 6px 0 1px;
+  text-align: left;
+}
+.main-content-list-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

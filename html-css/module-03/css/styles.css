@@ -20,11 +20,11 @@ img {
   margin-bottom: 32px;
 }
 
-.container {
-  width: 908px;
+.wrapper {
+  width: 900px;
   margin: 0 auto;
 }
-.main-header-container {
+.main-header-wrapper {
   margin-bottom: 100px;
 }
 .title {
@@ -107,14 +107,17 @@ button:focus {
 
 .main-content-list-item {
   display: inline-block;
-  width: 421px;
+  width: 418px;
   margin-right: 61px;
   margin-bottom: 128px;
-  padding: 0 6px 0 1px;
+  padding: 0;
   text-align: left;
 }
 .main-content-list-item:nth-child(2n) {
   margin-right: 0;
+}
+.main-content-list-item:nth-last-child(-n + 2) {
+  margin-bottom: 0;
 }
 
 .visually-hidden:not(:focus):not(:active),

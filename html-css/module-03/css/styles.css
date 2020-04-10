@@ -1,11 +1,17 @@
 html {
   box-sizing: border-box;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 body {
   font-family: "Playfair Display", serif;
   color: #626262;
@@ -24,7 +30,7 @@ img {
   width: 900px;
   margin: 0 auto;
 }
-.main-header-wrapper {
+.main-header {
   margin-bottom: 100px;
 }
 .title {
@@ -35,9 +41,10 @@ img {
 .title {
   margin-bottom: 25px;
   font-size: 14px;
+  text-transform: uppercase;
 }
 .heading {
-  margin-bottom: 33px;
+  margin-bottom: 34px;
   font-size: 30px;
   line-height: 36px;
 }
@@ -67,6 +74,7 @@ button:focus {
 .main-nav {
   padding: 77px 0 73px 0;
   text-align: center;
+  margin: 0 auto;
 }
 
 .main-menu {
@@ -91,6 +99,7 @@ button:focus {
   text-transform: uppercase;
   text-decoration: none;
   display: block;
+  color: #626262;
 }
 
 .main-menu-item a:hover,

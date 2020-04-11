@@ -29,6 +29,7 @@ img {
 .wrapper {
   width: 900px;
   margin: 0 auto;
+  padding-top: 77px;
 }
 .main-header {
   margin-bottom: 100px;
@@ -72,7 +73,6 @@ button:focus {
 }
 
 .main-nav {
-  padding: 77px 0 73px 0;
   text-align: center;
   margin: 0 auto;
 }

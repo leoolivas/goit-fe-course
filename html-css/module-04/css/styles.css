@@ -1,0 +1,245 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 38px 0 80px;
+}
+
+.site-logo {
+  font-family: "Roboto Light", sans-serif;
+  color: #555252;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+.site-logo::first-letter {
+  font-family: "Roboto Black", sans-serif;
+  color: #1abc9c;
+  font-weight: 900;
+}
+
+.site-navigation {
+  float: right;
+  margin-top: 5px;
+  width: 495px;
+  list-style: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #1abc9c;
+}
+.site-navigation li {
+  float: left;
+}
+
+.site-navigation li:not(:last-child) {
+  margin-right: 34px;
+}
+.site-navigation a {
+  font-family: "Open Sans Bold", sans-serif;
+  color: #0f0101;
+  font-size: 14px;
+  line-height: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.page-header {
+  margin-bottom: 100px;
+}
+
+.featured-products {
+  margin-bottom: 100px;
+}
+.product-section-title {
+  font-family: "Roboto Black", sans-serif;
+  color: #515151;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 92px;
+}
+.product-section-title:after {
+  content: "";
+  display: block;
+  width: 164px;
+  height: 8px;
+  background-color: #1abc9c;
+  margin: 0px auto;
+  margin-top: 28px;
+}
+
+.product-list-item {
+  float: left;
+  width: 255px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  list-style: none;
+}
+.product-list-item:hover .product-box {
+  background-color: #4ec6ab;
+}
+.product-list-item:hover .product-price {
+  background-color: #7fd9c7;
+}
+.product-list-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.product-list-item:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+}
+
+.product-list-item .product-box,
+.product-price {
+  font-family: "Roboto Black", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.product-box {
+  float: left;
+  min-width: 202px;
+  min-height: 40px;
+  background-color: #323232;
+  padding: 4px 0 0 14px;
+}
+
+.product-price {
+  float: right;
+  min-width: 53px;
+  min-height: 40px;
+  text-align: center;
+  background-color: #8c8c8c;
+  padding-top: 4px;
+}
+
+.news-section-title {
+  font-family: "Roboto Black", sans-serif;
+  color: #555252;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 82px;
+}
+.news-section-title:after {
+  content: "";
+  display: block;
+  width: 164px;
+  height: 8px;
+  background-color: #4ec6ab;
+  margin: 0px auto;
+  margin-top: 28px;
+}
+
+.news-list-image {
+  margin-bottom: 12px;
+}
+.heading {
+  margin-bottom: 24px;
+}
+.heading:after {
+  content: "";
+  display: block;
+  width: 136px;
+  height: 4px;
+  background-color: #4ec6ab;
+  margin: 0px;
+  margin-top: 8px;
+}
+.description {
+  margin-bottom: 10px;
+}
+
+.news-list-item {
+  float: left;
+  width: 350px;
+  margin-right: 30px;
+  list-style: none;
+}
+.news-list-item:nth-last-child(-n + 1) {
+  margin-right: 0;
+}
+.heading {
+  font-family: "Open Sans Semibold", sans-serif;
+  color: #555252;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+}
+.description {
+  font-family: "Open Sans Regular", sans-serif;
+  color: #555252;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
+button {
+  font-family: "Open Sans Light", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  background-color: #4ec6ab;
+  padding: 14px 42px;
+  min-width: 160px;
+  min-height: 50px;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  color: red;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

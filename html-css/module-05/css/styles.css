@@ -82,7 +82,12 @@ img {
 
 .slider {
   position: relative;
-  background-image: url("../img/background-image.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 2, 0.522),
+      rgba(50, 50, 50, 0.522)
+    ),
+    url("../img/background-img.jpg");
   min-height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -217,6 +222,11 @@ h2 {
 .product-list-item:hover .overlay {
   opacity: 0.549;
 }
+
+.overlay img:hover {
+  opacity: 0.549;
+}
+
 .button-heart {
   position: absolute;
   top: 80px;

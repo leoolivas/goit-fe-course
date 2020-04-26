@@ -1,0 +1,404 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 26px 0 12px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.site-logo {
+  font-family: "Montserrat Bold", sans-serif;
+  color: #95e1d3;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  display: inline-block;
+  margin: 0;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  flex-basis: 494px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  list-style: none;
+}
+
+.site-navigation a {
+  font-family: "Montserrat Regular", sans-serif;
+  color: #95e1d3;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 200ms linear;
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #f38181;
+}
+
+.page-header {
+  margin-bottom: 110px;
+}
+
+.services {
+  margin-bottom: 88px;
+}
+.first-services-title {
+  font-family: "Kaushan Script Regular", cursive;
+  color: #333333;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.services-section-title {
+  font-family: "Montserrat Bold", sans-serif;
+  color: #333333;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.services-section-title:after {
+  content: "";
+  display: block;
+  width: 164px;
+  height: 8px;
+  background-color: #f38181;
+  margin: 0px auto;
+  margin-top: 40px;
+}
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+.services-list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 94px;
+  flex-basis: 350px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.alarm {
+  background-image: url("../icons/icon-01.png");
+  display: block;
+  width: 60px;
+  height: 32px;
+  margin: 0px auto;
+  margin-right: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.line-graph {
+  background-image: url("../icons/icon-02.png");
+  display: block;
+  width: 60px;
+  height: 32px;
+  margin: 0px auto;
+  margin-right: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.computer {
+  background-image: url("../icons/icon-03.png");
+  display: block;
+  width: 60px;
+  height: 32px;
+  margin: 0px auto;
+  margin-right: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.book {
+  background-image: url("../icons/icon-04.png");
+  display: block;
+  width: 60px;
+  height: 32px;
+  margin: 0px auto;
+  margin-right: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.home {
+  background-image: url("../icons/icon-05.png");
+  display: block;
+  width: 60px;
+  height: 32px;
+  margin: 0px auto;
+  margin-right: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image {
+  background-image: url("../icons/icon-06.png");
+  display: block;
+  width: 60px;
+  height: 32px;
+  margin: 0px auto;
+  margin-right: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.services-list-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+.heading {
+  font-family: "Montserrat Regular", sans-serif;
+  color: #333333;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.description {
+  font-family: "Roboto Regular", sans-serif;
+  color: #999999;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.first-team-title {
+  font-family: "Kaushan Script Regular", cursive;
+  color: #333333;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.team-section-title {
+  font-family: "Montserrat Bold", sans-serif;
+  color: #333333;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 42px;
+}
+.team-section-title:after {
+  content: "";
+  display: block;
+  width: 164px;
+  height: 8px;
+  background-color: #f38181;
+  margin: 0px auto;
+  margin-top: 40px;
+}
+
+.team-description {
+  font-family: "Roboto Regular", sans-serif;
+  color: #999999;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  position: relative;
+}
+.team-list-person {
+  flex-basis: 380px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  transition: transform 200ms linear;
+}
+.team-list-person:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+.overlay {
+  position: absolute;
+  width: 380px;
+  height: 470px;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgba(252, 227, 138, 0.9) 0%,
+    rgba(243, 129, 129, 0.9) 100%
+  );
+  display: none;
+}
+
+.team-list-person:hover .overlay {
+  display: block;
+  transform: translate(-10px, -10px);
+}
+
+.socials {
+  position: relative;
+  list-style: none;
+}
+
+.facebook {
+  position: absolute;
+  background-image: url("../icons/facebook.png");
+  background-color: #fce38a;
+  display: block;
+  width: 56px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 208px;
+  left: 79px;
+  transition: background-color 200ms linear;
+}
+.facebook:hover {
+  background-color: #95e1d3;
+}
+
+.twitter {
+  position: absolute;
+  background-image: url("../icons/twitter.png");
+  background-color: #fce38a;
+  display: block;
+  width: 56px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 208px;
+  left: 135px;
+  transition: background-color 200ms linear;
+}
+.twitter:hover {
+  background-color: #95e1d3;
+}
+.pinterest {
+  position: absolute;
+  background-image: url("../icons/pinterest.png");
+  background-color: #fce38a;
+  display: block;
+  width: 56px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 208px;
+  right: 132px;
+  transition: background-color 200ms linear;
+}
+.pinterest:hover {
+  background-color: #95e1d3;
+}
+.instagram {
+  position: absolute;
+  background-image: url("../icons/instagram.png");
+  background-color: #fce38a;
+  display: block;
+  width: 56px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 208px;
+  right: 75px;
+  transition: background-color 200ms linear;
+}
+.instagram:hover {
+  background-color: #95e1d3;
+}
+
+.persons-name {
+  font-family: "Montserrat Regular", sans-serif;
+  color: #333333;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+.position {
+  font-family: "Roboto Light Italic", sans-serif;
+  color: #999999;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.our-team:after {
+  content: "";
+  display: block;
+  width: 1200px;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin: 0px auto;
+  margin-top: 78px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-info {
+  font-family: "Montserrat Regular", sans-serif;
+  color: #333333;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  padding: 24px 0 24px 0;
+}
+.colored-text {
+  color: #f38181;
+  padding: 24px 0 24px 0;
+}
+input {
+  font-family: "Roboto Light Italic", sans-serif;
+  color: #cccccc;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  padding: 10px 140px 10px 12px;
+}
+button {
+  font-family: "Montserrat Bold", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #95e1d3;
+  border: none;
+  padding: 14px 32px;
+}

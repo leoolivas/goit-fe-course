@@ -130,7 +130,7 @@ img {
   right: 0px;
 }
 
-h2 {
+.slider-content-title {
   font-family: "Roboto Black", sans-serif;
   color: #ffffff;
   font-size: 60px;
@@ -150,8 +150,7 @@ h2 {
 }
 
 .new-collection {
-  /* padding: 96px 244px 100px 244px; */
-  padding: 96px 0px 100px 80px;
+  padding: 96px 0px 100px 0px;
   background-color: #e9f0fd;
 }
 .product-section-title {
@@ -163,10 +162,6 @@ h2 {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 82px;
-  width: 410px;
-  top: 50%;
-  left: 50%;
-  transform: translateX(135%);
 }
 .product-section-title:after {
   content: "";
@@ -358,11 +353,12 @@ footer {
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
-  padding: 34px 0px 34px 620px;
   background-color: #323232;
 }
 footer p {
   width: 412px;
+  margin: 0 auto;
+  padding: 34px 0 34px 0;
 }
 
 .colored-text {

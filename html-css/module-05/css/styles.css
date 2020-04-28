@@ -113,7 +113,7 @@ img {
   position: absolute;
   top: 246px;
   left: 120px;
-  transform: translate(-116%, 10%);
+  /* transform: translate(-116%, 10%); */
 }
 .arrow-right {
   font-family: "Pe-icon-7-stroke", sans-serif;
@@ -127,7 +127,7 @@ img {
   margin-top: 8px;
   position: absolute;
   top: 246px;
-  right: 0px;
+  right: 120px;
 }
 
 .slider-content-title {

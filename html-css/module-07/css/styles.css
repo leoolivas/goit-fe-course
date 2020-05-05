@@ -235,7 +235,7 @@ footer {
   width: 614px;
   height: 537px;
   position: absolute;
-  opacity: 0.302;
+  opacity: 0.702;
 }
 
 .footer-title {
@@ -277,7 +277,6 @@ footer {
   line-height: 17px;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 18px 0 18px 0;
 }
 
 input {
@@ -290,6 +289,7 @@ input {
   border-color: rgb(204, 204, 204);
   background-color: rgb(255, 255, 255);
   text-indent: 20px;
+  padding: 18px 0 18px 0;
 }
 
 input:invalid {
@@ -314,6 +314,7 @@ textarea {
   background-color: rgb(255, 255, 255);
   text-indent: 20px;
   resize: none;
+  padding: 18px 0 18px 0;
 }
 
 textarea:invalid {
@@ -333,9 +334,10 @@ button {
   width: 240px;
   height: 66px;
   border-radius: 3px;
+  border: none;
   background-color: rgb(254, 209, 54);
   margin: 0 auto;
-  padding: 0 48px 0 40px;
+  padding: 0 48px 0 46px;
 
   font-family: "Montserrat Bold", sans-serif;
   color: #ffffff;
@@ -343,4 +345,10 @@ button {
   line-height: 22px;
   font-weight: 700;
   text-transform: uppercase;
+  transition: color 200ms linear;
+}
+
+button:hover,
+button:focus {
+  color: #f38181;
 }

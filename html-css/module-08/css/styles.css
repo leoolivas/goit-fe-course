@@ -52,8 +52,9 @@ img {
     ),
     url("../img/background-01.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center fixed;
   min-height: 540px;
+  background-size: cover;
 }
 nav {
   display: flex;
@@ -99,6 +100,7 @@ nav {
 button:hover,
 button:focus {
   color: gold;
+  outline: none;
 }
 
 .site-logo {

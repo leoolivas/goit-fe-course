@@ -130,6 +130,9 @@ button:focus {
   margin-bottom: 15px;
 }
 
+.heading-title {
+  padding: 0;
+}
 .promo-subtitle {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
@@ -153,7 +156,7 @@ button:focus {
   background-color: rgb(255, 78, 80);
   width: 280px;
   height: 40px;
-  margin: 0 20px 0 20px;
+  /* margin: 0 20px 0 20px; */
   transition: color 200ms linear;
 }
 
@@ -184,7 +187,7 @@ button:focus {
   margin-bottom: 0;
 }
 
-.partner-information:nth-child(1)::after {
+.partner-information-one::after {
   background-image: url("../icons/icon-01.png");
   content: "";
   display: block;
@@ -203,10 +206,10 @@ button:focus {
   height: 37px;
   position: absolute;
   left: 185px;
-  top: 85px;
+  top: 88px;
 }
 
-.partner-information:nth-child(2)::after {
+.partner-information-two::after {
   background-image: url("../icons/icon-02.png");
   content: "";
   display: block;
@@ -225,10 +228,10 @@ button:focus {
   height: 37px;
   position: absolute;
   left: 185px;
-  top: 322px;
+  top: 88px;
 }
 
-.partner-information:nth-child(3)::after {
+.partner-information-three::after {
   background-image: url("../icons/icon-03.png");
   content: "";
   display: block;
@@ -247,10 +250,10 @@ button:focus {
   height: 37px;
   position: absolute;
   left: 185px;
-  top: 588px;
+  top: 88px;
 }
 
-.partner-information:nth-child(4)::after {
+.partner-information-four::after {
   background-image: url("../icons/icon-04.png");
   content: "";
   display: block;
@@ -269,7 +272,7 @@ button:focus {
   height: 37px;
   position: absolute;
   left: 185px;
-  top: 822px;
+  top: 88px;
 }
 
 .partner-photo {
@@ -313,6 +316,6 @@ button:focus {
   background-color: rgb(255, 255, 255);
   width: 284px;
   height: 44px;
-  margin: 0 20px 58px 20px;
+  margin-bottom: 58px;
   transition: color 200ms linear;
 }

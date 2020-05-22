@@ -1,0 +1,74 @@
+link
+
+
+background-wrapper
+
+ wrapper
+ 
+  page-header
+
+page-nav
+
+site-logo
+
+site-navigation
+ site-navigation__item
+ site-navigation__link
+ site-navigation__shopping-cart
+ site-navigation__magnifying-glass
+
+
+banner
+
+ banner__first__title
+
+ banner__section__title
+
+ banner__button
+
+
+services
+
+ services__first__title
+
+ services__section__title
+
+ services__list
+ 
+ services__item
+
+ 
+  services__icon__alarm
+
+content
+
+ content__heading
+ content__description
+
+
+team
+
+team__first__title
+
+team__section__title
+
+team__description
+
+team__list
+team__person
+
+ overlay
+  
+  socials
+   socials__facebook
+   socials__twitter
+   socials__pinterest
+   socials__instagram
+   socials__icon
+
+
+team__person-image
+
+team__person-name
+
+team__person-position

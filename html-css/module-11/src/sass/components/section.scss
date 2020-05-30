@@ -1,0 +1,19 @@
+.section__first__title {
+  font-family: 'Kaushan Script Regular', cursive;
+  color: $grey-color;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.section__title {
+  font-family: 'Montserrat Bold', sans-serif;
+  color: $grey-color;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}

@@ -1,0 +1,72 @@
+.services {
+  margin-bottom: 88px;
+}
+
+.services__first__title {
+  margin-bottom: 16px;
+}
+
+.services__section__title {
+  margin-bottom: 64px;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 164px;
+    height: 8px;
+    background-color: $main-color;
+    margin: 0px auto;
+    margin-top: 40px;
+  }
+}
+
+.services__list {
+  @extend %space__between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.services__item {
+  @extend %space__between;
+  margin-bottom: 94px;
+  -ms-flex-preferred-size: 350px;
+  flex-basis: 350px;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+
+  &:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
+}
+
+.services__icon {
+  display: block;
+  width: 60px;
+  height: 32px;
+  margin: 0px auto;
+  margin-right: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &--alarm {
+    background-image: url('../icons/icon-01.png');
+  }
+  &--line-graph {
+    background-image: url('../icons/icon-02.png');
+  }
+  &--computer {
+    background-image: url('../icons/icon-03.png');
+  }
+  &--book {
+    background-image: url('../icons/icon-04.png');
+  }
+  &--home {
+    background-image: url('../icons/icon-05.png');
+  }
+  &--image {
+    background-image: url('../icons/icon-06.png');
+  }
+}

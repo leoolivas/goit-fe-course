@@ -1,0 +1,16 @@
+footer {
+  @extend %space__between;
+}
+
+.site__info {
+  font-family: 'Montserrat Regular', sans-serif;
+  color: $grey-color;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  padding: 24px 0 24px 0;
+}
+.colored__text {
+  color: $main-color;
+  padding: 24px 0 24px 0;
+}

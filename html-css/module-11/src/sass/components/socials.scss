@@ -1,0 +1,78 @@
+.socials {
+  position: relative;
+  list-style: none;
+}
+
+.socials__icon {
+  display: block;
+  fill: $main-color;
+  -webkit-transition: fill 200ms linear;
+  -o-transition: fill 200ms linear;
+  transition: fill 200ms linear;
+
+  &--facebook__size {
+    width: 13px;
+    height: 26px;
+  }
+
+  &--twitter__size {
+    width: 26px;
+    height: 22px;
+  }
+
+  &--pinterest__size {
+    width: 21px;
+    height: 26px;
+  }
+
+  &--instagram__size {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+.socials__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  background-color: $hover-color;
+  width: 56px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &:hover {
+    background-color: $main-color;
+  }
+
+  &:hover .socials__icon {
+    fill: $white-color;
+  }
+
+  &--facebook__position {
+    top: 208px;
+    left: 79px;
+  }
+
+  &--twitter__position {
+    top: 208px;
+    left: 135px;
+  }
+
+  &--pinterest__position {
+    top: 208px;
+    right: 132px;
+  }
+
+  &--instagram__position {
+    top: 208px;
+    right: 75px;
+  }
+}

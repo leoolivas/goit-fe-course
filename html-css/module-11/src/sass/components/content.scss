@@ -1,0 +1,10 @@
+.content__heading {
+  @extend %heading;
+  margin-bottom: 14px;
+}
+
+.content__description {
+  @extend %description;
+  font-family: 'Roboto Regular', sans-serif;
+  font-weight: 400;
+}

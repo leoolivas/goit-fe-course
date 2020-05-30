@@ -1,0 +1,15 @@
+input {
+  font-family: 'Roboto Light Italic', sans-serif;
+  color: #cccccc;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  padding: 10px 140px 10px 12px;
+}
+
+.subscribe__button {
+  @extend %button;
+  background-color: #95e1d3;
+  border: none;
+  padding: 14px 32px;
+}

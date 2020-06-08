@@ -49,19 +49,12 @@
 }
 
 .site-navigation__item__shopping-cart {
-  background-image: url('../images/icons/shopping-cart.png');
-  display: block;
-  width: 18px;
-  height: 15px;
-  background-repeat: no-repeat;
-  background-position: center;
+  @include bg-image($path: '../images/icons/shopping-cart.png', $height: 15px);
 }
 
 .site-navigation__item__magnifying-glass {
-  background-image: url('../images/icons/magnifying-glass.png');
-  display: block;
-  width: 18px;
-  height: 18px;
-  background-repeat: no-repeat;
-  background-position: center;
+  @include bg-image(
+    $path: '../images/icons/magnifying-glass.png',
+    $height: 18px
+  );
 }

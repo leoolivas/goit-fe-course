@@ -4,3 +4,25 @@
 
 @import 'normalize.scss';
 @import 'base.scss';
+
+@import 'helpers/variables.scss';
+@import 'helpers/mixins.scss';
+@import 'helpers/placeholders.scss';
+@import './normalize.scss';
+@import './base.scss';
+
+// Components
+@import './components/background-wrapper.scss';
+@import './components/wrapper.scss';
+@import './components/page-nav.scss';
+@import './components/site-logo.scss';
+@import './components/site-navigation.scss';
+@import './components/page-header.scss';
+@import './components/banner.scss';
+@import './components/section.scss';
+@import './components/services.scss';
+@import './components/content.scss';
+@import './components/team.scss';
+@import './components/socials.scss';
+@import './components/site__info.scss';
+@import './components/button.scss';

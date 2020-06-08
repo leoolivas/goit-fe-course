@@ -1,0 +1,15 @@
+@mixin bg-image(
+  $height,
+  $path: '',
+  $display: block,
+  $width: 18px,
+  $repeat: no-repeat,
+  $position: center
+) {
+  background-image: url($path);
+  display: $display;
+  width: $width;
+  height: $height;
+  background-repeat: $repeat;
+  background-position: $position;
+}

@@ -7,7 +7,7 @@ module.exports = {
     fonts: 'src/fonts/**/*',
   },
   watch: {
-    html: 'src/**/*.html',
+    html: 'src/html/**/*.html',
     css: 'src/sass/**/*.scss',
     js: 'src/js/**/*.js',
     images: 'src/images/**/*',
